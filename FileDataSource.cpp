@@ -6,7 +6,7 @@
 
 namespace MultiClassSvm {
 
-	FileDataSource::FileDataSource(char* filePath, char dataSeparator, int indexOfLabel)
+	FileDataSource::FileDataSource(const char* filePath, char dataSeparator, int indexOfLabel)
 	{
 		std::fstream file;
 		std::string line;

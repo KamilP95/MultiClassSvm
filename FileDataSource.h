@@ -9,7 +9,7 @@ namespace MultiClassSvm {
 		SvmData data;
 
 	public:
-		FileDataSource(char* filePath, char dataSeparator = ' ', int indexOfLabel = 0);
+		FileDataSource(const char* filePath, char dataSeparator = ' ', int indexOfLabel = 0);
 		~FileDataSource();
 
 		SvmData GetData();
