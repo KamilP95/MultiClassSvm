@@ -115,7 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileDataSource.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SvmData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataSource.h" />
+    <ClInclude Include="FileDataSource.h" />
+    <ClInclude Include="SvmData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
